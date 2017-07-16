@@ -91,7 +91,7 @@ let appServer: net.Server = net.createServer(function (clientSocket: net.Socket)
     });
 });
 
-appServer.listen(4510, '127.0.0.1');
+appServer.listen(4510);
 
 appServer.on('connection', function (clientSocket: net.Socket) {
     console.log(`A client has connected. ${JSON.stringify(clientSocket.address())}`);

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node app",
+    "build": "tsc"
   },
   "description": "ExpressApp1",
   "author": {
@@ -15,5 +16,8 @@
     "express": "^4.14.0",
     "lodash": "^4.17.4",
     "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.1"
   }
 }
