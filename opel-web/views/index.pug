@@ -1,0 +1,11 @@
+﻿extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form(method='POST' action='/movebackward')
+    button.btn.btn-primary(type='submit') Move Backward
+
+  form(method='POST' action='/moveforward')
+    button.btn.btn-primary(type='submit') Move Forward
